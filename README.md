@@ -510,7 +510,7 @@ Community feedback will help shape future development priorities.
 
 <div align="center">
 
-**Built with ❤️ by [Bytte AI](https://www.bytte.xyz/) for African language NLP**
+**By [Bytte AI](https://www.bytte.xyz/) for African language NLP**
 
 [![Twitter](https://img.shields.io/twitter/follow/BytteAI?style=social)](https://twitter.com/BytteAI)
 [![GitHub](https://img.shields.io/github/stars/Bytte-AI?style=social)](https://github.com/Bytte-AI)
