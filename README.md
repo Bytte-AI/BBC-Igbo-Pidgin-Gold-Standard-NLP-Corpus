@@ -1,13 +1,14 @@
-# BBC-Igbo-Pidgin-Gold-Standard-NLP-Corpus
+# BBC Igbo–Pidgin Gold-Standard NLP Corpus (Sample)
 
 <div align="center">
 
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![Type](https://img.shields.io/badge/type-Sample%20Dataset-purple.svg)
 ![License](https://img.shields.io/badge/license-CC--BY--4.0-green.svg)
 ![Languages](https://img.shields.io/badge/languages-Igbo%20%7C%20Pidgin-orange.svg)
 ![Samples](https://img.shields.io/badge/samples-217-brightgreen.svg)
 
-**High-quality annotated datasets for Nigerian Igbo and Pidgin English NLP**
+**Sample dataset: High-quality annotated data for Nigerian Igbo and Pidgin English NLP**
 
 [🤗 Hugging Face](https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus) • [📊 Figshare](https://figshare.com/articles/dataset/BBC_Igbo_Pidgin_Gold-Standard_NLP_Corpus/31249567) • [🌐 Website](https://www.bytte.xyz/) • [📧 Contact](mailto:contact@bytteai.xyz)
 
@@ -17,11 +18,13 @@
 
 ## 📋 Overview
 
-The **BBC Igbo–Pidgin Gold-Standard NLP Corpus** is a meticulously curated collection of professionally annotated text data designed to advance natural language processing for Nigerian languages. Created by **Bytte AI**, this corpus addresses the critical scarcity of high-quality linguistic resources for African low-resource languages.
+The **BBC Igbo–Pidgin Gold-Standard NLP Corpus (Sample)** is a meticulously curated collection of professionally annotated text data designed to advance natural language processing for Nigerian languages. Created by **Bytte AI**, this sample corpus addresses the critical scarcity of high-quality linguistic resources for African low-resource languages.
+
+> **📌 Sample Dataset Notice:** This is a **sample dataset** representing a curated subset of annotated documents. It demonstrates the annotation methodology, quality standards, and multi-task capabilities of the full corpus. Ideal for prototyping, fine-tuning, and quality benchmarking.
 
 ### 🎯 Key Features
 
-- **217 annotated documents** across Igbo and Pidgin English
+- **217 annotated documents** across Igbo and Pidgin English (sample size)
 - **4 complementary datasets** covering multiple NLP tasks
 - **4,851 named entities** with 7-way classification
 - **Human-in-the-loop annotation** using Label Studio
@@ -298,7 +301,13 @@ for ent in entities[:5]:
 
 ### Known Constraints
 
-1. **Limited Scale**
+1. **Sample Dataset - Limited Scale**
+   - This is a **sample dataset** (217 documents)
+   - Not representative of full corpus size
+   - Best for: prototyping, fine-tuning, quality demonstration
+   - Not recommended for: training large models from scratch
+
+2. **Limited Training Scale**
    - 63 Igbo samples, 91 Pidgin samples
    - Best used for fine-tuning, not training from scratch
    - Combine with other datasets for larger experiments
@@ -396,9 +405,10 @@ If you use this dataset in your research, please cite:
 ```bibtex
 @dataset{bytte_ai_bbc_igbo_pidgin_2026,
   author    = {Bytte AI},
-  title     = {BBC Igbo–Pidgin Gold-Standard NLP Corpus},
+  title     = {BBC Igbo–Pidgin Gold-Standard NLP Corpus (Sample)},
   year      = {2026},
   version   = {1.0},
+  note      = {Sample dataset},
   publisher = {Hugging Face and Figshare},
   url       = {https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus},
   license   = {CC-BY-4.0}
